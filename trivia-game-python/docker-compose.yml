@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: postgres_db
+    # Imagen de docker a usar
+    image: postgres:17-alpine
+    # Reinicio de contenedor si falla o se reinicia el host
+    restart: always
+    ports:
+      - "5432:5432"
+    # Archivo externo para credenciales
+    env_file:
+      - .env
+    volumes:
+      - ./data:/var/lib/postgresql/data
