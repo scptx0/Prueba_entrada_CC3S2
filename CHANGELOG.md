@@ -20,6 +20,7 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 ### Cambiado
 
+- Merge (fast-forward) de la rama `feature/estructura-inicial` (commit 094458c) sobre `develop` (commit 4fb2730).
 
 ## Día 2
 ## Día 3
