@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y libpq-dev gcc && \
     apt-get purge -y gcc && apt-get autoremove -y
 
 # Instalar las dependencias de python
-RUN pip install fastapi uvicorn asyncpg databases
+RUN pip install fastapi uvicorn asyncpg databases pytest
 
 # Copiar el codigo de la aplicación al directorio de trabajo
 COPY . .
