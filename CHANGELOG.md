@@ -30,7 +30,7 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 - Rama `feature/dia2`
     - Dependencia `PyTest` en el proyecto
-    - Archivo `trivia.py`con la lógica básica de las preguntas (clase `Question`)
+    - Archivo `trivia.py`con la lógica básica de las preg tas (clase `Question`)
     - Archivo `test_trivia.py` para hacer la prueba unitaria de `trivia.py`
 
 ### Cambiado
@@ -39,6 +39,23 @@ En este archivo se documentarán las actividades realizadas cada día.
 - Archivo `CHANGELOG.md` con el progreso del dia 2.
 - Merge (fast-forward) de la rama `feature/dia2` (commit fc637db) sobre `develop` (commit c786ffa).
 
+
+## Día 3 (11-04-25)
+
+> `feature/dia3` es la rama del día 3.
+
+### Añadido
+
+- Rama `feature/dia3`
+    - Característcias del juego en `trivia.py` (clase de preguntas y funcion principal).
+    - Comentarios de documentación en archivos `trivia.py` y `test_trivia.py`.
+    - Archivo `.gitignore`
+
+### Cambiado
+
+- Se eliminaron archivos innecesarios (como el cache de ejecución y entorno virtual python) del repositorio.
+- Archivo `CHANGELOG.md` con el progreso del día 3.
+- Merge (fast-forward) de la rama `feature/dia3` (commit 430ab88) sobre `develop` (commit ce8e37e)
 
 ## Día 3
 ## Día 4
