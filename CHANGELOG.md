@@ -22,7 +22,24 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 - Merge (fast-forward) de la rama `feature/estructura-inicial` (commit 094458c) sobre `develop` (commit 4fb2730).
 
-## Día 2
+## Día 2 (10-04-25)
+
+> `feature/dia2` es la rama del día 2.
+
+### Añadido
+
+- Rama `feature/dia2`
+    - Dependencia `PyTest` en el proyecto
+    - Archivo `trivia.py`con la lógica básica de las preguntas (clase `Question`)
+    - Archivo `test_trivia.py` para hacer la prueba unitaria de `trivia.py`
+
+### Cambiado
+
+- Archivo `Dockerfile` con la instalación de dependencia `PyTest` para la dockerización.
+- Archivo `CHANGELOG.md` con el progreso del dia 2.
+- Merge (fast-forward) de la rama `feature/dia2` (commit fc637db) sobre `develop` (commit c786ffa).
+
+
 ## Día 3
 ## Día 4
 ## Día 5
