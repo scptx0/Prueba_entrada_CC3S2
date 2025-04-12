@@ -57,8 +57,18 @@ En este archivo se documentarán las actividades realizadas cada día.
 - Archivo `CHANGELOG.md` con el progreso del día 3.
 - Merge (fast-forward) de la rama `feature/dia3` (commit 430ab88) sobre `develop` (commit ce8e37e)
 
-## Día 3
-## Día 4
-## Día 5
-## Día 6
-## Día 7
+## Día 4 (12-04-25)
+
+> `feature/dia4` es la rama del día 4.
+
+### Añadido
+
+- Rama `feature/dia4`
+    - Añadir sistema de puntuación al juego
+    - Añadir pruebas unitarias con respecto al sistema de puntuación
+- Rama `develop`
+    - Tags con cambios importantes en el proyecto
+
+### Cambiado
+
+- Merge (fast-forward) de la rama `feature/dia4` (commit dd080bf) sobre `develop` (commit 4764cb4)
