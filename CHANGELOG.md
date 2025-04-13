@@ -72,3 +72,17 @@ En este archivo se documentarán las actividades realizadas cada día.
 ### Cambiado
 
 - Merge (fast-forward) de la rama `feature/dia4` (commit dd080bf) sobre `develop` (commit 4764cb4)
+
+## Día 5 (13-04-25)
+
+> `feature/dia5` es la rama del día 5 (equivalente a `feature/ui-improvements`)
+
+### Añadido
+
+- Rama `feature/dia5`
+    - Después de una mala racha (3 o más preguntas incorrectas), se empezaran a mostrar las preguntas más fáciles restantes
+
+### Cambiado
+
+- Mejora de la interfaz
+- Merge (fast-forward) de la rama `feature/dia5` sobre `develop`
