@@ -86,3 +86,17 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 - Mejora de la interfaz
 - Merge (fast-forward) de la rama `feature/dia5` sobre `develop`
+
+## Día 6 (14-04-25)
+
+> `feature/dia6` es la rama del día 6
+
+### Añadido
+
+- Rama `feature/dia5`
+    - Archivo de configuración de pipeline CI/CD 
+
+### Cambiado
+
+- Ubicación de prueba unitaria de `trivia.py`
+- Merge de la rama `feature/dia6` sobre `develop`
