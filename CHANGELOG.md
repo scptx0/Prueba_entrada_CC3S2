@@ -89,7 +89,7 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 ## Día 6 (14-04-25)
 
-> `feature/dia6` es la rama del día 6
+> `feature/dia6` es la rama del día 6 (equivalente a `feature/ci-cd-integration`)
 
 ### Añadido
 
@@ -100,3 +100,20 @@ En este archivo se documentarán las actividades realizadas cada día.
 
 - Ubicación de prueba unitaria de `trivia.py`
 - Merge de la rama `feature/dia6` sobre `develop`
+
+## Día 7 (15-04-25)
+
+> `feature/dia7` es la rama del día 7
+
+### Añadido
+
+- Rama `feature/dia7`
+    - Prueba de carga `locustfile.py`
+    - Archivo `.env` para las variables 
+
+### Cambiado
+
+- Archivo de pipeline con pruebas de seguridad con Bandit
+- Carga de variables en la aplicación principal
+- Merge (fast-forward) de la rama `feature/dia7` (commit 047c2fc) sobre `develop` (commit 9899d2d)
+- Integración de `develop` con `main`.
